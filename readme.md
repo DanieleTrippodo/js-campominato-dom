@@ -51,3 +51,7 @@ Consigli del giorno:
     > ogni volta che crei un quadrato prendi il valore di ''i'' e inseriscilo dentro il quadrato, così da numerarli tutti in ordine
     > usare appendchild per inseire i quadratini dentro a quello più grande
 
+## AGGIORNAMENTO - 2
+> iniziamo creando le classi che definiranno le nostre ''bombe''
+
+> creiamo una funzione che generi delle bombe, dentro la funziona creiamo una variabile che generi 16 numeri casuali (con un ciclo while) e che aggiunga la classe all'elemento del numero corrispondente nel container

@@ -71,11 +71,18 @@ main {
     cursor: pointer;
 }
 
-.active {
-    background-color: rgb(187, 168, 0);
-    color: white;
-}
 
 footer {
     margin-top: auto; /* fix per posizionarlo in fondo alla pagina */
+}
+
+
+.bomb {
+    background-color: red;
+    color: white;
+}
+
+
+.safe {
+    background-color: rgb(187, 168, 0);
 }
