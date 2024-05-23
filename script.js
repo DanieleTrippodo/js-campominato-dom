@@ -24,6 +24,7 @@ function generateSquares() {
         square.addEventListener("click", function() {
             if (bombPositions.includes(i)) {
                 square.classList.add("bomb");
+                resetGame();
             } else {
                 square.classList.add("safe");
             }
@@ -31,9 +32,6 @@ function generateSquares() {
         container.appendChild(square);
     }
 }
-
-
-
 
 
 
@@ -46,4 +44,13 @@ function generateBombs() {
         bombPositions.add(bombPosition);
     }
     return Array.from(bombPositions);
+}
+
+
+
+
+//? per resettare il gioco
+function resetGame() {
+    alert("GameOver, il gioco verrà resettato");
+    generateSquares();
 }
